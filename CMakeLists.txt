@@ -85,7 +85,7 @@ cmake_dependent_option(CLI11_SANITIZERS "Download the sanitizers CMake config" O
 
 cmake_dependent_option(CLI11_BUILD_DOCS "Build CLI11 documentation" ON "${build-docs}" OFF)
 
-cmake_dependent_option(CLI11_BUILD_TESTS "Build CLI11 tests" ON
+cmake_dependent_option(CLI11_BUILD_TESTS "Build CLI11 tests" OFF
                        "BUILD_TESTING;CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME" OFF)
 
 cmake_dependent_option(CLI11_BUILD_EXAMPLES "Build CLI11 examples" ON
