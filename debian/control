@@ -1,0 +1,16 @@
+Source: libcli11-dev
+Section: libs
+Priority: extra
+Maintainer: Sander <code@kroket.io>
+Build-Depends: debhelper (>= 10),
+    cmake,
+Homepage: https://github.com/maemo-leste-upstream-forks/cli11
+XSBC-Bugtracker: https://github.com/maemo-leste-upstream-forks/cli11/issues
+Vcs-Git: https://github.com/maemo-leste-upstream-forks/cli11/
+Vcs-Browser: https://github.com/maemo-leste-upstream-forks/cli11/
+
+
+Package: libcli11-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Command line parser for C++11 and beyond
